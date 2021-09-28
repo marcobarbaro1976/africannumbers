@@ -12,7 +12,11 @@
 NetBeans 8.2 has been used as editor.
 The program works either by command line or test gui taking as main:
 
-aphricanmobilephones.MainAfricanNumbers
+java -cp dist/AfricanMobilePhones.jar aphricanmobilephones.MainAfricanNumbers
+
+or
+
+java -cp dist/AfricanMobilePhones.jar aphricanmobilephones.Tester
 
 the program will produce an output file into an html file.
 Change the html file inside props.properties file and rebuild jar to modify the path
