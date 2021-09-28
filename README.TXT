@@ -10,7 +10,14 @@
 ##################################################
 
 NetBeans 8.2 has been used as editor.
-The program works either by command line and takes as input the full path to a csv file made as the following example:
+The program works either by command line or test gui taking as main:
+
+aphricanmobilephones.MainAfricanNumbers
+
+the program will produce an output file into an html file.
+Change the html file inside props.properties file and rebuild jar to modify the path
+
+and passing as parameter the full path to a csv file made as the following example:
 
 
 id,sms_phone
@@ -19,6 +26,9 @@ id,sms_phone
 
 
 Correct syntax for a number is: 27123456789
+
+
+
 
 Longer numbers will be truncated and still accepted with a warning if starting with "27" String
 
