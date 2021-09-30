@@ -38,7 +38,7 @@ Consider that you could change the html file path inside props.properties file t
 Please note also that <id> parameter is not used in this version. A second release of the program could take it as a id to insert the data into a db table instead of producing an html file.
 
 
-About instead the second main class aphricanmobilephones.Tester it is a swing gui created to test the parser, where you could insert 
+About instead the second main class africanmobilephones.Tester it is a swing gui created to test the parser, where you could insert 
 a number and see if it is written in a correct form.
 
 
