@@ -50,7 +50,7 @@ public class AfricanMobileTest {
         
         Pattern pattern = Pattern.compile("^\\d{11}$");
 
-        assertEquals("Number 27123456789 is Good Shaped!", this.main.isNumberGoodShaped(pattern, "27123456789"), "Test Passed");
+        assertEquals("27123456789 Number Good Shaped!", this.main.isNumberGoodShaped(pattern, "27123456789"), "Test Passed");
     }
     
     @Test
@@ -59,7 +59,7 @@ public class AfricanMobileTest {
         
         Pattern pattern = Pattern.compile("^\\d{11}$");
 
-        assertEquals("Number Not Correctly Formed!", this.main.isNumberGoodShaped(pattern, "77123456789"), "Test Passed");
+        assertEquals("77123456789 Number Not Correctly Formed!", this.main.isNumberGoodShaped(pattern, "77123456789"), "Test Passed");
     }
     
     @Test
@@ -68,7 +68,7 @@ public class AfricanMobileTest {
         
         Pattern pattern = Pattern.compile("^\\d{11}$");
 
-        assertEquals("Number good if truncated --> 27123456789", this.main.isNumberGoodShaped(pattern, "27123456789333"), "Test Passed");
+        assertEquals("27123456789333 Number good if truncated --> 27123456789", this.main.isNumberGoodShaped(pattern, "27123456789333"), "Test Passed");
     }    
     
 }
