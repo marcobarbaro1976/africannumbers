@@ -13,11 +13,11 @@
 NetBeans 8.2 has been used as editor.
 The program works either by command line or test gui taking as main:
 
-java -cp dist/AfricanMobilePhones.jar aphricanmobilephones.MainAfricanNumbers
+java -cp dist/AfricanMobilePhones.jar africanmobilephones.MainAfricanNumbers
 
 or
 
-java -cp dist/AfricanMobilePhones.jar aphricanmobilephones.Tester
+java -cp dist/AfricanMobilePhones.jar africanmobilephones.Tester
 
 the first program will produce an output file into an html file, taking as parameter the full path to a csv file made as the following example:
 
