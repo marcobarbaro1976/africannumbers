@@ -19,7 +19,7 @@ or
 
 java -cp dist/AfricanMobilePhones.jar africanmobilephones.SingleNumberTester
 
-the first program will produce an output file into an html file, taking as parameter the full path to a csv file made as the following example:
+the first program will produce (and try to open) an output file into an html file, taking as parameter the full path to a csv file made as the following example:
 
 id,sms_phone
 103343262,27123456789
