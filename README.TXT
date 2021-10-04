@@ -10,7 +10,9 @@
 # RELEASE NOTES
 ##################################################
 
-NetBeans 8.2 has been used as editor.
+NetBeans 8.2 has been used as editor. 
+Java version required >= 8
+
 The program works either by command line or test gui taking as main:
 
 java -cp dist/AfricanMobilePhones.jar africanmobilephones.MainAfricanNumbers
